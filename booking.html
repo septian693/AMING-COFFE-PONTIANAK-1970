@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>kopinang rhesia dari hidupku</title>
+        <div class="judul">
+            <h1>rangga anak presiden besok</h1>
+        </div>
+        <p style="font-size: 20px; margin-left: 20px;margin-bottom: 60px; padding-bottom: 1px; color: #DDD1C3;"><b>Booking Aming Coffee </b></p>
+        <hr />
+        <style>
+            body{
+                background-color: #2F3847;
+                margin: 0 12%;
+                font-family: 'Lucida Sans';
+                color: #ffffff;
+                margin-top: 3px;
+            }
+            .judul p{
+                position: relative;
+                left: 30px;
+            }
+            h1{
+                color: #DDD1C3;
+                font-family: arial;
+                font-size: 38px;
+                position: relative;
+                top: 20px;
+                left: 20px;
+                padding-bottom: 5px;
+                margin: auto;
+                padding-top: 20px;
+            }
+           ul li{
+                font-family: sans-serif;
+                color: #DEDEDE;
+                display: inline;
+                padding: 25px;
+                position: relative;
+                left: 65%;
+                bottom: 140px;
+            }
+            h2{
+                font-size: 22px;
+                position: relative;
+                left: 2%;
+                padding-bottom: 40px;
+                padding-top: 6px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <ul>
+    <li>
+        <a href="website.html" style="color : #e3d18a;"> HOME</a>
+    </li>
+    <li>
+        <a href="gallery.html" style="color : #e3d18a;"> GALLERY </a>
+    </li>
+    <li>    
+        <a href="booking.html" style="color : #e3d18a;"> BOOKING </a>
+    </li>
+</ul>
+        <h2>Isi form ini untuk pemesanan meja di <b>Aming Coffee:</b></h2>
+        <form>
+            <label for="fname">Nama:</label>
+            <input type="text"
+            placeholder="Nama anda"><br><br>
+            <!--Jumlah orang-->
+            <label for="quantity">Jumlah Orang (Saat pandemi hanya menerima max 5 org):</label><br>
+            <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
+            <label for="birthdaytime">Waktu (Tanggal dan Jam):</label><br>
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br><br>
+            <!--Menu minuman -->
+            <label for="menu">Menu MInuman:</label><br>
+            <input type="checkbox" id="menu1" name="menu1" value="kopisusu">
+            <label for="menu1"> kopi susu</label>
+            <input type="checkbox" id="menu2" name="menu2" value="kopiluak">
+            <label for="menu2"> kopi luak</label><br>
+            <input type="checkbox" id="menu3" name="menu3" value="kopinikmat">
+            <label for="menu3"> kopi nikmat</label>
+            <input type="checkbox" id="menu4" name="menu4" value="kopisantay">
+            <label for="menu4"> kopi santay </label><br>
+            <input  type="checkbox" id="menu5" name="manu5" value="kopigaul">
+            <label for="menu5"> kopi gaul </label><br><br>
+            <!-- Menu paketan -->
+            <label for="menu">Menu paketan: </label><br>
+            <input type="checkbox" id="menu6" name="menu6" value="paketkopisantay">
+            <label for="menu6">paket kopi santay</label>
+            <input type="checkbox" id="menu7" name="menu7" value="paketkopiasik">
+            <label for="menu7">paket kopi asik </label><br>
+            <input type="checkbox"  id="menu8" name="menu8" value="paketkopikenyang">
+            <label for="menu8">paket kopi kenyang</label><br>
+            <label for="request">Special Request:</label><br>
+            <input type="text"
+            placeholder="Ada yang kurang?"><br><br><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset">
+          </form>
+        </div>
+    </body>
+    </head>
+</html>
